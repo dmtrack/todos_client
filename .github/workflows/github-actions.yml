@@ -17,4 +17,4 @@ jobs:
             - run: npm install
             - run: npm run build:prod
             - run: npm run unit
-            - run: npm run lint
+            - run: npm run lint:ci
