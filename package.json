@@ -8,7 +8,7 @@
         "build:prod": "webpack  --env mode=production",
         "build:dev": "webpack  --env mode=development",
         "lint:ts": "eslint --ext \".ts,.tsx, .js\" --ignore-path .gitignore . ",
-        "lint:prettier": "prettier --check .",
+        "lint:prettier": "prettier --fix .",
         "lint": "npm run lint:ts && npm run lint:prettier",
         "lintfix": "prettier --write --list-different . && npm run lint:ts -- --fix",
         "lint:scss": "npx stylelint \"**/*.scss\"",
