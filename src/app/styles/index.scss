@@ -1,24 +1,14 @@
-@import 'reset';
-@import 'variables/global';
-@import 'themes/normal';
-@import 'themes/dark';
+/* stylelint-disable scss/at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html {
     font-size: 62.5%;
 }
 
-.app {
-    font: var(--font-m);
-    background: var(--bg-color);
-    color: var(--primary-color);
-    min-height: 100vh;
-}
-
-.content-page {
-    display: flex;
-}
-
-.page-wrapper {
-    flex-grow: 1;
-    padding: 20px;
+body {
+    background-color: #181818;
+    color: #fff;
+    height: 100vh;
 }

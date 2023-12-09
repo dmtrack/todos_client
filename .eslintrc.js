@@ -38,7 +38,8 @@ module.exports = {
         'import/extensions': 'off',
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
-        'max-len': ['error', { ignoreComments: true }],
+        'max-len': 'off',
+        'react/jsx-no-constructed-context-values': 'off',
     },
     globals: {
         __IS_DEV__: true,
