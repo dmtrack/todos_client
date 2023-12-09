@@ -11,6 +11,8 @@
         "lint:prettier": "prettier --check .",
         "lint": "npm run lint:ts && npm run lint:prettier",
         "lintfix": "prettier --write --list-different . && npm run lint:ts -- --fix",
+        "lint:scss": "npx stylelint \"**/*.scss\"",
+        "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
         "prepare": "husky install"
     },
     "keywords": [],

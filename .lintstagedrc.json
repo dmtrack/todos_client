@@ -2,5 +2,5 @@
     "*.ts": "npm run lint",
     "*.js": "npm run lint",
     "*.tsx": "npm run lint",
-    "*.scss": "prettier --write"
+    "*.scss": "npm run lint:scss:fix"
 }
