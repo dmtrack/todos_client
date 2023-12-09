@@ -21,4 +21,4 @@ jobs:
             - run: npm install
             - run: npm run build:prod
             - run: npm run unit
-            - run: npm run format
+            - run: npm run forma
