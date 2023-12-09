@@ -1,6 +1,10 @@
 name: todos CI
 
-on: [push]
+on:
+    push:
+        branches: [main, develop]
+    pull_request:
+        branches: [main]
 
 jobs:
     init:
